@@ -1,0 +1,78 @@
+
+
+
+
+/* #6 */
+/* In your css file, create styles using the “color” (AKA Text Color) property for each element. Use all 7 ways to write a color (color name, hexadecimal, hexadecimal shorthand, hexadecimal with transparency, hexadecimal with transparency shorthand, RGB, & RGBA). You can pick the colors. */
+
+    /* BONUS #1 */
+    /* Use the seven colors of the rainbow (You’ll have to look them up) to create a background color for each element */
+
+/* color name (violet) */ 
+/* BONUS: red background */
+    h1{
+    color:violet;
+    background-color: red;
+    }
+    
+/* hexadecimal (indigo) */  
+/*  BONUS: orange background */ 
+    h2{
+    color:#4b0082;
+    background-color: #ffa500;
+    }
+
+/* hexadecimal shorthand (blue) */ 
+/* BONUS: yellow background */ 
+    h3{
+    color: #00f;
+    background-color: #ff0;
+    }
+
+/* hexadecimal with transparency (green) */
+/* BONUS: green background */
+    h4{
+    color: #00ff00ff;
+    background-color: #00ff0055;
+    }
+
+/*  hexadecimal with transparency shorthand (yellow) */ 
+/* BONUS: blue background */
+    h5{
+        color: #ff08;
+        background-color: #00f7;
+    }
+
+    /* RGB (orange) */
+    /* BONUS: indigo background */
+    h6{
+        color: rgb(255, 215, 0);
+        background-color: rgb(75, 0, 130);
+    }
+
+    /* RGBA (red) */
+    /* BONUS: violet background */
+    p{
+        color: rgb(255, 0, 0);
+        background-color: rgba(127, 0, 255, 0.5);
+    }
+
+
+    /* Bonus #3 */
+    /* <!-- Add a style to make ONLY the first list item have a “hot pink” text color (Hint: ID) --> */
+    #one{
+        color:  hotpink;
+    }
+
+    /* BONUS #4  */
+    /* Add another style to make ONLY the third/last list item have a “peachpuff” background color  */
+
+    #even{
+        background-color: peachpuff;
+    }
+
+    /* BONUS #5 */
+    /* Using ONLY one selector in your css file, give the first and third LIs (AKA List items) a border that is five pixels wide, solid (Not dashed or dotted), and green. (Hint: Class) */
+    .odd {
+        border: 5px solid green
+    }
